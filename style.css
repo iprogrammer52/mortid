@@ -1,0 +1,25 @@
+.card:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: all .5ms;
+}
+
+.cm-block {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+
+.cm-block-1 {
+    position: absolute;
+    z-index: 999;
+}
+
+.cm-block-2 {
+    position: relative;
+    z-index: -999;
+}
+
+.banner {
+    height: 52vh!important;
+}
